@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Twitter, Instagram, Wallet, CandlestickChart } from 'lucide-react';
+import { Mail, Twitter, Instagram, Wallet, CandlestickChart, X, LucideTwitter } from 'lucide-react';
 import DexerIcon from './DexerIcon';
 
 function Contact() {
@@ -13,11 +13,10 @@ function Contact() {
           <p className="text-gray-400 mb-6 break-all">justawiserock@gmail.com</p>
           <div className="flex justify-center space-x-6">
             <a href="https://dexscreener.com/solana/bqn4vvy7mshha9x7lthr6rnpz6bvwp6nkrta3zc7evx1" className="text-gray-400 hover:text-blue-400 transition">
-              {/* <DexerIcon className="h-5 md:h-6 w-5 md:w-6"/> */}
               <CandlestickChart className='h-5 md:h-6 w-5 md:w-6' />
             </a>
             <a href="https://x.com/moAI_Agent" className="text-gray-400 hover:text-blue-400 transition">
-              <Twitter className="h-5 md:h-6 w-5 md:w-6"/>
+              <LucideTwitter className="h-5 md:h-6 w-5 md:w-6"/>
             </a>
             <a href="https://www.instagram.com/justawiserock/" className="text-gray-400 hover:text-blue-400 transition">
               <Instagram className="h-5 md:h-6 w-5 md:w-6" />

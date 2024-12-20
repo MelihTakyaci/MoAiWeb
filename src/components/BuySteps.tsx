@@ -68,6 +68,7 @@ function BuySteps() {
                 {contractAddress}
               </code>
             </div>
+            <img src='/images/MoAi.jpg' className='w-12 h-12 rounded-full'/>
             <div className="relative">
               <button
                 onClick={copyToClipboard}
